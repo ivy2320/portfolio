@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KOUSHANI MAITY – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .tag {
+      display: inline-block;
+      margin: 4px;
+      padding: 4px 10px;
+      background: #1e293b;
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      text-align: center;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="section">
+      <h1>KOUSHANI MAITY</h1>
+      <p>Cybersecurity student & aspiring penetration tester. Passionate about web application security, CTFs, and ethical hacking.</p>
+      <p>
+        <a href="koushaniot7@gmail.com">koushaniot7@gmail.com</a> · 
+        <a href="https://github.com/ivy2320" target="_blank">GitHub</a> · 
+        <a href="https://www.linkedin.com/in/koushani-maity-3a8635253/" target="_blank">LinkedIn</a>
+      </p>
+    </header>
+
+    <!-- Skills -->
+    <section class="section">
+      <h2>Skills</h2>
+      <div>
+        <span class="tag">Linux</span>
+        <span class="tag">Nmap</span>
+        <span class="tag">Burp Suite</span>
+        <span class="tag">Wireshark</span>
+        <span class="tag">OWASP TOP 10</span>
+        <span class="tag">Python</span>
+        <span class="tag">Java</span>
+        <span class="tag">communication</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Vulnerable Web App Lab</strong> – Dockerized bWAPP/OWASP-style lab for practicing SQLi/XSS.
+        <li><strong>Recon Script</strong> –  subdomain discovery & port scanning using Nmap. 
+        <li><strong>CTFs</strong> – solved picoCTFS, ctfs/rooms on tryhackme , completed portswigger labs.
+             
+      </ul>
+    </section>
+
+    <!-- Writeups -->
+    <section class="section">
+      <h2>Writeups</h2>
+      <ul>
+        <li>HackTheBox. – Linux fundamentals</li>
+        <li>PortSwigger Labs – 
+            <a href="https://github.com/ivy2320/SSTI-vulnerability-in-a-blacklisted-environment">SSTI</a> |
+            <a href="https://github.com/ivy2320/ssrf-portswigger">SSRF</a>
+          </li>
+          <li>
+            tryhackme- <a href="https://github.com/ivy2320/ruiningTheDB">SQLi</a>
+          </li>
+        </li>                
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      © <span id="2025"></span> Koushani Maity 
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
